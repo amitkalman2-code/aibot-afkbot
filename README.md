@@ -1,3 +1,36 @@
-get afkbot_final click open with terminal or powershell and run then run cmd
-Remove-Item -Force config.json npm install node index.js and wait until it finish and go to http://localhost:3000/ and if you ask what prot it like this 768.159.34.145:20648 this the prot 20648 put you port if you dont it will not work 
-i think this only work on windows but you can try all to credit amitkalman2 and for the bot Slobos-AFK-Aternos by slobos  slobos youtube channel https://www.youtube.com/@Slobos13 my youtube channel https://www.youtube.com/@EASYGAME-eg5kb i will make a totral
+# AFKBot Final - Setup Guide
+
+## Windows Setup
+
+1. Open the **afkbot_final** folder.
+2. Right-click inside the folder and select **Open in Terminal** or **Open in PowerShell**.
+3. Run the following commands one by one:
+
+```cmd
+Remove-Item -Force config.json
+npm install
+node index.js
+```
+
+4. Wait until the installation is finished.
+5. Open your web browser and go to:
+
+```
+http://localhost:3000/:
+
+
+6Replace **20648** with **your own server port**. If you don't enter the correct port, the bot will not work.
+
+## Notes
+
+* This project is mainly designed for **Windows**.
+* It may also work on Linux or macOS, but it has not been fully tested.
+
+## Credits
+
+* **AFK Bot:** Slobos-AFK-Aternos by Slobos
+* **Slobos YouTube:** https://www.youtube.com/@Slobos13
+* **My YouTube:** https://www.youtube.com/@EASYGAME-eg5kb
+* **Project by:** amitkalman2
+
+I will make a tutorial soon. Thanks for using the project!
