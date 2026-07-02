@@ -10,11 +10,9 @@
 Remove-Item -Force config.json
 npm install
 node index.js
-```
-
 4. Wait until the installation is finished.
 5. Open your web browser and go to:
-
+6 if donst work Then do Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force and then do npm install node index.js
 ```
 http://localhost:3000/:
 
