@@ -17,7 +17,7 @@ node index.js
 http://localhost:3000/:
 
 
-6Replace **20648** with **your own server port**. If you don't enter the correct port, the bot will not work.
+6 Replace **20648** with **your own server port**. If you don't enter the correct port it maybe not work.
 
 ## Notes
 
